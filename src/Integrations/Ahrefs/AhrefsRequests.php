@@ -2,14 +2,11 @@
 
 namespace Seeders\SeoIntegrations\Integrations\Ahrefs;
 
-use Illuminate\Support\Facades\Log;
 use Saloon\Http\Connector;
 use Saloon\Http\Request;
-use Seeders\SeoIntegrations\Data\DefaultResponseData;
 use Seeders\SeoIntegrations\Exceptions\AhrefsException;
 use Seeders\SeoIntegrations\Integrations\Ahrefs\Data\SiteExplorer\DomainRatingRequestData;
 use Seeders\SeoIntegrations\Integrations\Ahrefs\Data\SiteExplorer\DomainRatingResponseData;
-use Spatie\LaravelData\Data;
 
 class AhrefsRequests
 {
